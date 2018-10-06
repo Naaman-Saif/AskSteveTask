@@ -2,9 +2,9 @@
 ### A simple React Native App with Github API's
 
 ---
-##Necessary! Please go through the Installation
+Necessary! Please go through the Installation
 
-#####Installation
+Installation
 
 * ```git clone && cd AskSteveTask```
 * ```npm install``` to install the packages for React native app
