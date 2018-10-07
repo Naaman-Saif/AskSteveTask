@@ -12,8 +12,8 @@ const AuthStack = createStackNavigator({ SignIn: SignInScreen, Password: Passwor
 export default createSwitchNavigator(
   {
     AuthLoading: AuthLoadingScreen,
-    App: AppStack,
     Auth: AuthStack,
+    App: AppStack,
   },
   {
     initialRouteName: 'AuthLoading',
