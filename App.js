@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import Navigator from './src/navigations';
+import Navigator from "./src/navigations";
 export default class App extends React.Component {
   render() {
-    return (
-      <Navigator />
-    );
+    return <Navigator />;
   }
 }
