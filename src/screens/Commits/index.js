@@ -8,6 +8,7 @@ import {
   Image
 } from "react-native";
 import { Bubbles } from "react-native-loader";
+import styles from "./styles";
 import axios from "axios";
 
 export default class HomeScreen extends React.Component {
@@ -80,12 +81,10 @@ export default class HomeScreen extends React.Component {
               data={this.state.commits}
               renderItem={({ item }) => (
                 <View style={styles.commit}>
-                  {item.author ? (
-                    <Image
-                      source={{ uri: item.author.avatar_url }}
-                      style={styles.avatar}
-                    />
-                  ) : null}
+                  <Image
+                    style={styles.avatar}
+                    source={{ uri: item.author.avatar_url }}
+                  />
                   <Text>
                     Name:
                     {item.commit.author.name}

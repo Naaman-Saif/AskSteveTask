@@ -8,13 +8,14 @@ export default (styles = StyleSheet.create({
   },
   commitContainer: {
     marginTop: 20,
-    height: "80%"
+    height: "70%"
   },
   commit: {
     marginTop: 20
   },
   avatar: {
-    marginTop: 20
+    width: 50,
+    height: 50
   },
   loading: {
     alignItems: "center",
